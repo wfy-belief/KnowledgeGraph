@@ -47,10 +47,12 @@
 <body>
     <main>
         <script src="https://d3js.org/d3.v3.min.js"></script>
-        <script type="text/javascript" src="./data.json"></script>
         <script>
-            var links = JSON.parse(data);
+            var links = [];
 
+            $.get('./authors.json', function (data) {
+                links = data
+            })
             var nodes = {};
 
             links.forEach(function (link) {
