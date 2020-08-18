@@ -49,7 +49,12 @@
         <script src="https://d3js.org/d3.v3.min.js"></script>
         <script>
             var links = [];
-            links = require('./data.json');
+            d3.json("./data.json", function (error, data) {
+                if (error) console.error(error);
+                //读进了data变量
+                //接下来用到data的代码必须全部在此函数内部进行
+                links = data;
+            });
             var nodes = {};
 
             links.forEach(function (link) {
