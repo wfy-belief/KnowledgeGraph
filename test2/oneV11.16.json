@@ -1,0 +1,9336 @@
+{
+   "links": [{
+         "source": "动态存储方式",
+         "target": "静态存储方式",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "静态存储方式",
+         "target": "函数调用时的数据传递",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "全局变量",
+         "target": "局部变量",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "局部变量",
+         "target": "函数调用时的数据传递",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "外部函数",
+         "target": "内部函数",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "内部函数",
+         "target": "函数调用时的数据传递",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "数组名作函数参数",
+         "target": "函数调用时的数据传递",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "数组元素作函数实参",
+         "target": "函数调用时的数据传递",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "函数调用时的数据传递",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "数组元素的指针",
+         "target": "指针变量",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "返回指针值的函数",
+         "target": "指针变量",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "定义指针变量",
+         "target": "指针变量",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "内存的动态分配",
+         "target": "指针数组",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "malloc函数",
+         "target": "指针数组",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "calloc函数",
+         "target": "指针数组",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "free函数",
+         "target": "指针数组",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "realloc函数",
+         "target": "指针数组",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "指针数组",
+         "target": "指针",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "指针变量",
+         "target": "指针",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "指针",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "ferror函数",
+         "target": "打开与关闭文件",
+         "relation": "同义关系",
+         "value": 4
+      },
+      {
+         "source": "clearerr 函数",
+         "target": "打开与关闭文件",
+         "relation": "同义关系",
+         "value": 4
+      },
+      {
+         "source": "文件读写的出错检测",
+         "target": "打开与关闭文件",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "文件位置标记的定位",
+         "target": "打开与关闭文件",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "打开与关闭文件",
+         "target": "程序文件",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "数据文件",
+         "target": "程序文件",
+         "relation": "同义关系",
+         "value": 4
+      },
+      {
+         "source": "文件名",
+         "target": "程序文件",
+         "relation": "同义关系",
+         "value": 4
+      },
+      {
+         "source": "程序文件",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "break语句",
+         "target": "循环结构程序设计",
+         "relation": "前驱关系",
+         "value": 4
+      },
+      {
+         "source": "continue语句",
+         "target": "循环结构程序设计",
+         "relation": "前驱关系",
+         "value": 4
+      },
+      {
+         "source": "循环结构程序设计",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 5
+      },
+      {
+         "source": "输出字符串的函数",
+         "target": "字符数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "转换为小写的函数",
+         "target": "字符数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "转换为大写的函数",
+         "target": "字符数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "测字符串长度的函数",
+         "target": "字符数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "字符串比较函数",
+         "target": "字符数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "字符串复制函数",
+         "target": "字符数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "字符串连接函数",
+         "target": "字符数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "字符数组的输入输出",
+         "target": "字符数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "字符数组",
+         "target": "数组",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "二维数组",
+         "target": "数组",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "数组",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "标识符",
+         "target": "常量",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "整型数据",
+         "target": "常量",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "字符型数据",
+         "target": "常量",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "变量",
+         "target": "常量",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "浮点型数据",
+         "target": "常量",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "常量",
+         "target": "C语句分类",
+         "relation": "subclassof",
+         "value": 5
+      },
+      {
+         "source": "字符数据的输入输出",
+         "target": "C语句分类",
+         "relation": "subclassof",
+         "value": 5
+      },
+      {
+         "source": "C语句分类",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 5
+      },
+      {
+         "source": "汇编语言",
+         "target": "计算机语言",
+         "relation": "subclassof",
+         "value": 5
+      },
+      {
+         "source": "机器语言",
+         "target": "计算机语言",
+         "relation": "subclassof",
+         "value": 5
+      },
+      {
+         "source": "高级语言",
+         "target": "计算机语言",
+         "relation": "subclassof",
+         "value": 5
+      },
+      {
+         "source": "C语言特点",
+         "target": "计算机程序",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "计算机语言",
+         "target": "计算机程序",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "计算机程序",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 5
+      },
+      {
+         "source": "结构体指针",
+         "target": "结构体",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "结构体变量的初始化和引用",
+         "target": "结构体",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "结构体",
+         "target": "typedef声明类型",
+         "relation": "前驱关系",
+         "value": 1
+      },
+      {
+         "source": "结构体",
+         "target": "共用体类型",
+         "relation": "前驱关系",
+         "value": 1
+      },
+      {
+         "source": "结构体",
+         "target": "枚举类型",
+         "relation": "前驱关系",
+         "value": 1
+      },
+      {
+         "source": "结构体",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "建立动态链表",
+         "target": "链表",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "链表",
+         "target": "结构体",
+         "relation": "同义关系",
+         "value": 2
+      },
+      {
+         "source": "条件运算符",
+         "target": "条件表达式",
+         "relation": "前驱关系",
+         "value": 4
+      },
+      {
+         "source": "条件表达式",
+         "target": "关系运算符",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "强制类型转换",
+         "target": "关系运算符",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "字符常量",
+         "target": "关系运算符",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "整型常量",
+         "target": "关系运算符",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "赋值表达式",
+         "target": "关系运算符",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "算术表达式",
+         "target": "关系运算符",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "逻辑运算符",
+         "target": "逻辑表达式",
+         "relation": "前驱关系",
+         "value": 5
+      },
+      {
+         "source": "逻辑运算符",
+         "target": "关系运算符",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "逻辑表达式",
+         "target": "关系运算符",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "算法的描述方法",
+         "target": "算法的特征",
+         "relation": "同义关系",
+         "value": 5
+      },
+      {
+         "source": "算法的特征",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "关系运算符",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 5
+      }, {
+         "source": "Java语言基础",
+         "target": "Java",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "Java面向对象",
+         "target": "Java",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "字符串",
+         "target": "Java语言基础",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "StringBuilder类",
+         "target": "字符串",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "命令行参数",
+         "target": "字符串",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "命令行参数",
+         "target": "字符串",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "格式化输出",
+         "target": "字符串",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "格式化输出",
+         "target": "字符串",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "循环结构",
+         "target": "Java语言基础",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "选择结构",
+         "target": "Java语言基础",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "数组",
+         "target": "Java语言基础",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "数据类型",
+         "target": "Java语言基础",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "数据类型",
+         "target": "Java语言基础",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "运算符",
+         "target": "Java语言基础",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "String类",
+         "target": "字符串",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "创建对象",
+         "target": "String类",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "String类常用操作",
+         "target": "String类",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "大小比较",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "拆分",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "查找",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "查找",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "求子串",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "求长度",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "求长度",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "相等比较",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "组合",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "转数组",
+         "target": "String类常用操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "变量",
+         "target": "数据类型",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "关键字",
+         "target": "变量",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "变量三要素",
+         "target": "变量",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "标识符",
+         "target": "变量",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "变量的基本类型",
+         "target": "变量",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "单浮点型",
+         "target": "变量的基本类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "双浮点型",
+         "target": "变量的基本类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "字符型",
+         "target": "变量的基本类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "字节型",
+         "target": "变量的基本类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "布尔型",
+         "target": "变量的基本类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "整型",
+         "target": "变量的基本类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "短整型",
+         "target": "变量的基本类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "长整型",
+         "target": "变量的基本类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "数据类型转换",
+         "target": "数据类型",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "强制类型转换",
+         "target": "数据类型转换",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "自动类型转换",
+         "target": "数据类型转换",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "读取键盘输入",
+         "target": "数据类型",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "创建scanner对象",
+         "target": "读取键盘输入",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "调入scanner类",
+         "target": "读取键盘输入",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "调用next方法",
+         "target": "读取键盘输入",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "数组的基本操作",
+         "target": "数组",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "使用数组",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "元素复制",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "元素迭代",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "创建数组",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "删除",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "反转",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "取字符",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "取字符",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "插入",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "改字符",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "数组排序",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "冒泡排序",
+         "target": "数组排序",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "插入排序",
+         "target": "数组排序",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "选择排序",
+         "target": "数组排序",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "求容量",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "追加",
+         "target": "数组的基本操作",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "数组的基本类型",
+         "target": "数组",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "数组的基本类型",
+         "target": "变量的基本类型",
+         "relation": "前驱关系",
+         "value": 4
+      },
+      {
+         "source": "一维数组",
+         "target": "数组的基本类型",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "一维数组",
+         "target": "多维数组",
+         "relation": "前驱关系",
+         "value": 3
+      },
+      {
+         "source": "多维数组",
+         "target": "数组的基本类型",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "位运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "位逻辑",
+         "target": "位运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "按位与",
+         "target": "位逻辑",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "按位取反",
+         "target": "位逻辑",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "按位异或",
+         "target": "位逻辑",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "按位或",
+         "target": "位逻辑",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "移位",
+         "target": "位运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "关系运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "算术运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "赋值运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "逻辑运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "if结构",
+         "target": "选择结构",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "switch结构",
+         "target": "选择结构",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "do while循环",
+         "target": "循环结构",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "for循环",
+         "target": "循环结构",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "while循环",
+         "target": "循环结构",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "增强for循环",
+         "target": "循环结构",
+         "relation": "type",
+         "value": 1
+      },
+      {
+         "source": "循环中嵌套循环",
+         "target": "循环结构",
+         "relation": "type",
+         "value": 1
+      },
+      {
+         "source": "无限循环",
+         "target": "循环结构",
+         "relation": "type",
+         "value": 1
+      },
+      {
+         "source": "跳转语句",
+         "target": "循环结构",
+         "relation": "type",
+         "value": 1
+      },
+      {
+         "source": "匿名内部类",
+         "target": "内部类",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "局部内部类",
+         "target": "内部类",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "成员内部类",
+         "target": "内部类",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "静态内部类",
+         "target": "内部类",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "成员",
+         "target": "接口",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "常量",
+         "target": "成员",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "抽象方法",
+         "target": "成员",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "静态方法",
+         "target": "成员",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "默认方法",
+         "target": "成员",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "枚举类型",
+         "target": "接口",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "泛型与集合",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "Collection",
+         "target": "集合",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "List",
+         "target": "集合",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "Map",
+         "target": "集合",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "queue",
+         "target": "集合",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "Set",
+         "target": "集合",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "Stream_API",
+         "target": "集合",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "泛型",
+         "target": "泛型与集合",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "注解类型",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "类和对象",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "内部类",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "多态",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "输入/输出",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "继承",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "继承的实现",
+         "target": "继承",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "异常处理",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "接口",
+         "target": "Java面向对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "final关键字",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "super关键字",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "使用类",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "包与类的导入",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "对象初始化和销毁",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "抽象类",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "方法覆盖",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "方法重载",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "类体",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "类声明",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "访问修饰符",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "静态成员",
+         "target": "类和对象",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "类",
+         "target": "多态",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "对象",
+         "target": "多态",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "多态",
+         "target": "抽象",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "封装",
+         "target": "抽象",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "继承",
+         "target": "抽象",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "抽象",
+         "target": "面向对象",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "模块",
+         "target": "面向对象",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "函数",
+         "target": "面向对象",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "异常",
+         "target": "面向对象",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "内建函数",
+         "target": "函数",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "随机函数",
+         "target": "函数",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "面向对象",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "高级应用",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "异步编程",
+         "target": "高级应用",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "网络爬虫",
+         "target": "高级应用",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "闭包",
+         "target": "高级应用",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "装饰器",
+         "target": "高级应用",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "文件",
+         "target": "高级应用",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "Lambda表达式",
+         "target": "高级应用",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "语言基础",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "输入输出",
+         "target": "语言基础",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "数据类型",
+         "target": "语言基础",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "不可变类型",
+         "target": "数据类型",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "容器类型",
+         "target": "数据类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "float",
+         "target": "不可变类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "complex",
+         "target": "不可变类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "int",
+         "target": "不可变类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "bool",
+         "target": "不可变类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "tuple",
+         "target": "容器类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "sets",
+         "target": "容器类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "string",
+         "target": "容器类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "list",
+         "target": "容器类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "dictionary",
+         "target": "容器类型",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "程序控制结构",
+         "target": "语言基础",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "循环结构",
+         "target": "程序控制结构",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "顺序结构",
+         "target": "程序控制结构",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "选择结构",
+         "target": "程序控制结构",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "语句",
+         "target": "语言基础",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "条件语句",
+         "target": "语句",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "循环语句",
+         "target": "语句",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "if语句",
+         "target": "语句",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "运算符",
+         "target": "语言基础",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "身份运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "逻辑运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "成员运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "赋值运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "算数运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "位运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "比较运算符",
+         "target": "运算符",
+         "relation": "type",
+         "value": 3
+      }, {
+         "source": "NFA的状态转换图",
+         "target": "不确定有限自动机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "NFA识别字符串",
+         "target": "不确定有限自动机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "DFA和NFA的关系",
+         "target": "不确定有限自动机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "DFA的状态转移矩阵",
+         "target": "确定的有限自动机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "DFA的状态转换图",
+         "target": "确定的有限自动机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "DFA识别字符串",
+         "target": "确定的有限自动机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "δ的递归扩展定义",
+         "target": "确定的有限自动机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "正规式的运算",
+         "target": "正规式与正规集",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "正规式的等价",
+         "target": "正规式与正规集",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "正规式与正规集",
+         "target": "词法分析器的任务",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "不确定有限自动机",
+         "target": "词法分析器的任务",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "确定的有限自动机",
+         "target": "词法分析器的任务",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "正规文法转换为正规式",
+         "target": "词法分析器的任务",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "NFA的确定化",
+         "target": "词法分析器的任务",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "NFA的化简思路",
+         "target": "词法分析器的任务",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "单词的种类",
+         "target": "词法分析器的任务",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "Follow集",
+         "target": "LL(1)文法",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "First集",
+         "target": "LL(2)文法",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "回溯的判断",
+         "target": "LL(3)文法",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "回溯的消除",
+         "target": "LL(4)文法",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "出错情况",
+         "target": "预测分析的出错处理",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "解决思路",
+         "target": "预测分析的出错处理",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "同步符号集的选择",
+         "target": "预测分析的出错处理",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "预测分析的出错处理",
+         "target": "语法分析器",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "LL(1)文法",
+         "target": "语法分析器",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "递归下降分析器。",
+         "target": "语法分析器",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "语法分析方法的种类",
+         "target": "语法分析器",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "自顶向下的语法分析",
+         "target": "语法分析器",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "L-属性定义",
+         "target": "S-属性定义",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "S-属性定义",
+         "target": "属性文法",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "栈中的继承属性",
+         "target": "属性文法",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "综合属性",
+         "target": "属性文法",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "继承属性",
+         "target": "属性文法",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "属性文法",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "语法分析器",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "词法分析器的任务",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "算符文法",
+         "target": "算符优先关系",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "算符相邻",
+         "target": "算符优先关系",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "算符优先级",
+         "target": "算符优先关系",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "算符优先文法",
+         "target": "算符优先关系",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "优先函数的优点",
+         "target": "优先函数",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "优先函数的缺点",
+         "target": "优先函数",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "LR分析器组成",
+         "target": "LR分析技术",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "LR(k)技术的分类",
+         "target": "LR分析技术",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "LALR(1)分析技术",
+         "target": "SLR(1)分析技术",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "SLR(1)分析技术",
+         "target": "自底向上的语法分析",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "算符优先关系",
+         "target": "自底向上的语法分析",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "优先函数",
+         "target": "自底向上的语法分析",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "LR分析技术",
+         "target": "自底向上的语法分析",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "自底向上的语法分析",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "三地址代码",
+         "target": "抽象语法树",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "四元式",
+         "target": "抽象语法树",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "逆波兰式",
+         "target": "抽象语法树",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "三元式",
+         "target": "抽象语法树",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "抽象语法树",
+         "target": "语义分析",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "图表示",
+         "target": "语义分析",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "语义分析",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "高级编程语言",
+         "target": "机器语言",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "汇编语言",
+         "target": "机器语言",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "机器语言",
+         "target": "符号常量",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "中间代码生成",
+         "target": "符号常量",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "数据复用",
+         "target": "符号常量",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "符号常量",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "堆式存储分配策略",
+         "target": "静态存储分配策略",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "栈式存储分配策略",
+         "target": "静态存储分配策略",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "静态存储分配策略",
+         "target": "运行时环境的组成",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "运行时环境的组成",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "目标代码生成",
+         "target": "编译程序的五个阶段",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "代码优化",
+         "target": "编译程序的五个阶段",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "语义分析与中间代码生成",
+         "target": "编译程序的五个阶段",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "语法分析",
+         "target": "编译程序的五个阶段",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "词法分析",
+         "target": "编译程序的五个阶段",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "编译程序的五个阶段",
+         "target": "翻译程序的三种方式",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "汇编",
+         "target": "翻译程序的三种方式",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "解释",
+         "target": "翻译程序的三种方式",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "编译",
+         "target": "翻译程序的三种方式",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "翻译程序的三种方式",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "规范句型",
+         "target": "最左推导",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "最右推导(规范推导)",
+         "target": "最左推导",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "最左归约(规范归约)",
+         "target": "最左推导",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "最左推导",
+         "target": "短语",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "句柄",
+         "target": "短语",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "直接短语",
+         "target": "短语",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "文法的二义性",
+         "target": "语法分析树",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "二义性的消除",
+         "target": "语法分析树",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "文法的化简",
+         "target": "语法分析树",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "语法分析树",
+         "target": "短语",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "递归规则",
+         "target": "推导",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "文法递归",
+         "target": "推导",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "句型和句子",
+         "target": "推导",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "短语",
+         "target": "符号串和语言",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "推导",
+         "target": "符号串和语言",
+         "relation": "同义关系",
+         "value": 3
+      },
+      {
+         "source": "直接推导",
+         "target": "产生式规则",
+         "relation": "同义关系",
+         "value": 2
+      },
+      {
+         "source": "文法",
+         "target": "产生式规则",
+         "relation": "同义关系",
+         "value": 2
+      },
+      {
+         "source": "产生式规则",
+         "target": "符号串和语言",
+         "relation": "同义关系",
+         "value": 2
+      },
+      {
+         "source": "正闭包与闭包",
+         "target": "符号串集合之间的运算",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "幂运算",
+         "target": "符号串集合之间的运算",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "乘积",
+         "target": "符号串集合之间的运算",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "并集",
+         "target": "符号串集合之间的运算",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "符号串集合之间的运算",
+         "target": "符号串和语言",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "3型语言(正规文法)",
+         "target": "语言的分类",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "2型文法(上下文无关文法)",
+         "target": "语言的分类",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "1型文法(上下文敏感文法)",
+         "target": "语言的分类",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "0型文法(短语文法)",
+         "target": "语言的分类",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "语言的分类",
+         "target": "符号串和语言",
+         "relation": "同义关系",
+         "value": 1
+      },
+      {
+         "source": "语言",
+         "target": "符号串和语言",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "符号串",
+         "target": "符号串和语言",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "字母表",
+         "target": "符号串和语言",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "符号串和语言",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      }, {
+         "source": "缓冲区",
+         "target": "多重缓冲区",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "缓冲区",
+         "target": "环形缓冲区",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "缓冲区",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "DMA",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "DMA",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "DMA",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "DMA",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "MMU",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "ROM",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "SSD",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "虚拟地址",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "EEPROM",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "闪存",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "地址空间",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "稳定存储",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "缓存命中",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "高速缓存行",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "RAID",
+         "target": "存储体系结构",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "内存映射I/O",
+         "target": ". I/O port",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "端口映射I/O",
+         "target": ". I/O port",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "显卡",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "位图",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "QR Code",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "假脱机",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "电阻式触摸屏",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "电容式触摸屏",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "逻辑块寻址",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "时钟",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "主设备编号",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "挂载",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "设备独立性",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": ". I/O port",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "轮询",
+         "target": "设备控制器",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "设备控制器",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "存储体系结构",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "Java 虚拟机",
+         "target": "虚拟机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "云计算",
+         "target": "云",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "半虚拟化",
+         "target": "虚拟化技术",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "全虚拟化",
+         "target": "虚拟化技术",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "VMM",
+         "target": "虚拟化技术",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "云",
+         "target": "虚拟化技术",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "虚拟机",
+         "target": "虚拟化技术",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "虚拟化技术",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "工作目录",
+         "target": "目录",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "根目录",
+         "target": "目录",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "路径",
+         "target": "目录",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "文件描述符",
+         "target": "目录",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "目标文件",
+         "target": "目录",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "服务端",
+         "target": "主从架构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "客户端",
+         "target": "主从架构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "主从模型",
+         "target": "主从架构",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "用户模式",
+         "target": "主从架构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "内核模式",
+         "target": "主从架构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "主从架构",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "活锁",
+         "target": "突发模式",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "死锁",
+         "target": "突发模式",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "不可抢占资源",
+         "target": "突发模式",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "可抢占资源",
+         "target": "突发模式",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "异步响应",
+         "target": "突发模式",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "同步阻塞",
+         "target": "突发模式",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "错误处理",
+         "target": "突发模式",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "局域网",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "广域网",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "以太网",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "桥接器",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "inode",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "周期窃取",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "中断向量表",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "系统检查点",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "命令行界面",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "中断向量",
+         "target": "主机",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "中断向量",
+         "target": "进程",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "主机",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "大型机",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "图形处理器",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "超级用户",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "实时迁移",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "进程间通信",
+         "target": "批处理",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "多线程",
+         "target": "批处理",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "系统调用",
+         "target": "批处理",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "忙等",
+         "target": "进程",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "中断",
+         "target": "进程",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "进程表",
+         "target": "进程",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "进程",
+         "target": "批处理",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "进程",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "L1 cache",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "L2 cache",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "L3 cache",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "RAM",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "context switch",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "程序状态字",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "程序计数器",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "超标量",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "流水线",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "堆栈寄存器",
+         "target": "CPU 核心",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "CPU 核心",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "SATA",
+         "target": "总线(Bus)",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "总线(Bus)",
+         "target": "计算机架构",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "X Window System",
+         "target": "x86",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "x86",
+         "target": "计算机架构",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "计算机架构",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "BSD",
+         "target": "UNIX 操作系统",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "MINIX",
+         "target": "UNIX 操作系统",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "POSIX",
+         "target": "UNIX 操作系统",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "UNIX System V",
+         "target": "UNIX 操作系统",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "DOS",
+         "target": "MacOS X",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "DOS",
+         "target": "MS-DOS",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "分布式系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "客户操作系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "主机操作系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "硬实时系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "软实时系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "分布式网络系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "网络操作系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "Linux",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "OS/360",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "相容分时系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "分时系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "多处理系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "操作系统",
+         "target": "UNIX 操作系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "Gnome",
+         "target": "Linux",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "USB",
+         "target": "驱动程序",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "BIOS",
+         "target": "驱动程序",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "DMI",
+         "target": "驱动程序",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "PCIe",
+         "target": "驱动程序",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "GDI",
+         "target": "驱动程序",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "GUI",
+         "target": "驱动程序",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "shell",
+         "target": "驱动程序",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "驱动程序",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "SSF",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "沙盒",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "解释器",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "输入输出内存管理单元",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "平台即服务",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "软件即服务",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "Windows NT",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "FreeBSD",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "数字版权管理（DRM）",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "Service Pack(SP)",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 1
+      },
+      {
+         "source": "复用",
+         "target": "基础设施即服务",
+         "relation": "subclassof",
+         "value": 1
+      }, {
+         "source": "计算机系统概述",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "计算机系统层次结构",
+         "target": "计算机系统概述",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "计算机性能指标",
+         "target": "计算机系统概述",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "软件系统",
+         "target": "计算机系统层次结构",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "硬件系统",
+         "target": "计算机系统层次结构",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "吞吐量",
+         "target": "计算机性能指标",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "响应时间",
+         "target": "计算机性能指标",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "CPU时钟周期",
+         "target": "计算机性能指标",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "主频",
+         "target": "计算机性能指标",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "数据表示",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "浮点数的表示",
+         "target": "数据表示",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "数制与编码",
+         "target": "数据表示",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "定点数的表示",
+         "target": "数据表示",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "指令系统",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "指令寻址方式",
+         "target": "指令系统",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "CISC和RISC",
+         "target": "指令系统",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "直接寻址",
+         "target": "指令寻址方式",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "顺序寻址",
+         "target": "指令寻址方式",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "隐含寻址",
+         "target": "指令寻址方式",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "立即寻址",
+         "target": "指令寻址方式",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "跳跃寻址",
+         "target": "指令寻址方式",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "寄存器寻址",
+         "target": "指令寻址方式",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "间接寻址",
+         "target": "指令寻址方式",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "存储系统",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "半导体随即存储器",
+         "target": "存储系统",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "存储器的层次结构",
+         "target": "存储系统",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "多模块存储器",
+         "target": "存储系统",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "高速缓冲存储器",
+         "target": "存储系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "虚拟存储器",
+         "target": "存储系统",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "输入输出系统",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "I/O接口",
+         "target": "输入输出系统",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "I/O方式",
+         "target": "输入输出系统",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "外部设备",
+         "target": "输入输出系统",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "内部接口",
+         "target": "I/O接口",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "外部接口",
+         "target": "I/O接口",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "通道",
+         "target": "I/O方式",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "程序中断",
+         "target": "I/O方式",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "程序查询",
+         "target": "I/O方式",
+         "relation": "type",
+         "value": 3
+      },
+      {
+         "source": "DMA",
+         "target": "I/O方式",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "输入设备",
+         "target": "外部设备",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "外存储器",
+         "target": "外部设备",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "输出设备",
+         "target": "外部设备",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "鼠标",
+         "target": "输入设备",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "键盘",
+         "target": "输入设备",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "磁盘存储器",
+         "target": "外存储器",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "打印机",
+         "target": "输出设备",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "显示器",
+         "target": "输出设备",
+         "relation": "subclassof",
+         "value": 3
+      },
+      {
+         "source": "总线",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "总线操作和定时",
+         "target": "总线",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "总线仲裁",
+         "target": "总线",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "总线标准",
+         "target": "总线",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "分布仲裁方式",
+         "target": "总线仲裁",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "集中仲裁方式",
+         "target": "总线仲裁",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "独立请求",
+         "target": "集中仲裁方式",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "计数器定时查询",
+         "target": "集中仲裁方式",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "链式查询",
+         "target": "集中仲裁方式",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "中央处理器",
+         "target": "name",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "CPU功能",
+         "target": "中央处理器",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "指令执行过程",
+         "target": "中央处理器",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "基本构成",
+         "target": "中央处理器",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "操作控制",
+         "target": "CPU功能",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "中断处理",
+         "target": "CPU功能",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "指令控制",
+         "target": "CPU功能",
+         "relation": "type",
+         "value": 4
+      },
+      {
+         "source": "数据加工",
+         "target": "CPU功能",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "时间控制",
+         "target": "CPU功能",
+         "relation": "type",
+         "value": 2
+      },
+      {
+         "source": "取指",
+         "target": "指令执行过程",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "分析",
+         "target": "指令执行过程",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "执行",
+         "target": "指令执行过程",
+         "relation": "subclassof",
+         "value": 2
+      },
+      {
+         "source": "控制器",
+         "target": "基本构成",
+         "relation": "subclassof",
+         "value": 4
+      },
+      {
+         "source": "运算器",
+         "target": "基本构成",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "二叉树的遍历",
+         "target": "基本操作",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "二叉树的遍历",
+         "target": "二叉树",
+         "relation": "前驱关系",
+         "value": 4.0
+      },
+      {
+         "source": "先序遍历二叉树",
+         "target": "二叉树的遍历",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "先序遍历二叉树",
+         "target": "二叉树的遍历",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "中序遍历二叉树",
+         "target": "二叉树的遍历",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "中序遍历二叉树",
+         "target": "二叉树的遍历",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "后序遍历二叉树",
+         "target": "二叉树的遍历",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "后序遍历二叉树",
+         "target": "二叉树的遍历",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "图的遍历",
+         "target": "基本操作",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "图的遍历",
+         "target": "图状结构",
+         "relation": "前驱关系",
+         "value": 4.0
+      },
+      {
+         "source": "深度优先搜索",
+         "target": "图的遍历",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "广度优先搜索",
+         "target": "图的遍历",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "树的遍历",
+         "target": "基本操作",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "树的遍历",
+         "target": "树",
+         "relation": "前驱关系",
+         "value": 4.0
+      },
+      {
+         "source": "先根遍历树",
+         "target": "树的遍历",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "先根遍历树",
+         "target": "树的遍历",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "中根遍历树",
+         "target": "树的遍历",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "中根遍历树",
+         "target": "树的遍历",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "后根遍历树",
+         "target": "树的遍历",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "后根遍历树",
+         "target": "树的遍历",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "线索二叉树",
+         "target": "基本操作",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "先序线索二叉树",
+         "target": "线索二叉树",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "中序线索二叉树",
+         "target": "线索二叉树",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "后序线索二叉树",
+         "target": "线索二叉树",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "二叉树",
+         "target": "树形结构",
+         "relation": "type",
+         "value": 6.0
+      },
+      {
+         "source": "平衡二叉树",
+         "target": "二叉树",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "二叉排序树",
+         "target": "二叉树",
+         "relation": "type",
+         "value": 1.0
+      },
+      {
+         "source": "一般二叉树",
+         "target": "二叉树",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "满二叉树",
+         "target": "二叉树",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "赫夫曼树",
+         "target": "二叉树",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "赫夫曼树",
+         "target": "最优二叉树",
+         "relation": "同义关系",
+         "value": 4.0
+      },
+      {
+         "source": "完全二叉树",
+         "target": "二叉树",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "最优二叉树",
+         "target": "二叉树",
+         "relation": "type",
+         "value": 1.0
+      },
+      {
+         "source": "森林",
+         "target": "树形结构",
+         "relation": "type",
+         "value": 1.0
+      },
+      {
+         "source": "树",
+         "target": "树形结构",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "一般树",
+         "target": "树",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "B-树",
+         "target": "树",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "键树",
+         "target": "树",
+         "relation": "type",
+         "value": 1.0
+      },
+      {
+         "source": "B+树",
+         "target": "树",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "树形结构",
+         "target": "存储结构",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "线性结构",
+         "target": "存储结构",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "集合",
+         "target": "存储结构",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "集合",
+         "target": "存储结构",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "图状结构",
+         "target": "存储结构",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "数组",
+         "target": "线性结构",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "广义表",
+         "target": "线性结构",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "栈",
+         "target": "线性结构",
+         "relation": "type",
+         "value": 3.0
+      },
+      {
+         "source": "顺序栈",
+         "target": "栈",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "链栈",
+         "target": "栈",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "队列",
+         "target": "线性结构",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "循环队列",
+         "target": "队列",
+         "relation": "type",
+         "value": 1.0
+      },
+      {
+         "source": "链队列",
+         "target": "队列",
+         "relation": "type",
+         "value": 1.0
+      },
+      {
+         "source": "线性表",
+         "target": "线性结构",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "循环链表",
+         "target": "线性表",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "静态链表",
+         "target": "线性表",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "双向链表",
+         "target": "线性表",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "单链表",
+         "target": "线性表",
+         "relation": "type",
+         "value": 2.0
+      },
+      {
+         "source": "无向图",
+         "target": "图状结构",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "有向图",
+         "target": "图状结构",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "完全图",
+         "target": "无向图",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "连通图",
+         "target": "无向图",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "无向完全图",
+         "target": "无向图",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "生成树",
+         "target": "无向图",
+         "relation": "subclassof",
+         "value": 3.0
+      },
+      {
+         "source": "连通分量",
+         "target": "无向图",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "强连通分量",
+         "target": "无向图",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "强连通图",
+         "target": "有向图",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "有向完全图",
+         "target": "有向图",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "查找算法",
+         "target": "基本算法",
+         "relation": "subclassof",
+         "value": 3.0
+      },
+      {
+         "source": "哈希表查找",
+         "target": "动态查找法",
+         "relation": "subclassof",
+         "value": 2.0
+      },
+      {
+         "source": "B-树查找",
+         "target": "动态查找法",
+         "relation": "subclassof",
+         "value": 3.0
+      },
+      {
+         "source": "B+树查找",
+         "target": "动态查找法",
+         "relation": "subclassof",
+         "value": 3.0
+      },
+      {
+         "source": "二叉排序树查找",
+         "target": "动态查找法",
+         "relation": "subclassof",
+         "value": 2.0
+      },
+      {
+         "source": "折半查找",
+         "target": "静态查找法",
+         "relation": "subclassof",
+         "value": 2.0
+      },
+      {
+         "source": "分块查找",
+         "target": "静态查找法",
+         "relation": "subclassof",
+         "value": 2.0
+      },
+      {
+         "source": "分块查找",
+         "target": "索引排序查找",
+         "relation": "同义关系",
+         "value": 2.0
+      },
+      {
+         "source": "顺序查找",
+         "target": "静态查找法",
+         "relation": "subclassof",
+         "value": 2.0
+      },
+      {
+         "source": "基本算法",
+         "target": "数据结构",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "存储结构",
+         "target": "数据结构",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "基本操作",
+         "target": "数据结构",
+         "relation": "subclassof",
+         "value": 3.0
+      },
+      {
+         "source": "排序算法",
+         "target": "基本算法",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "内部排序",
+         "target": "排序算法",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "外部排序",
+         "target": "排序算法",
+         "relation": "subclassof",
+         "value": 1.0
+      },
+      {
+         "source": "基数排序",
+         "target": "内部排序",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "交换排序",
+         "target": "内部排序",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "插入排序",
+         "target": "内部排序",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "归并排序",
+         "target": "内部排序",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "选择排序",
+         "target": "内部排序",
+         "relation": "type",
+         "value": 4.0
+      },
+      {
+         "source": "冒泡排序",
+         "target": "交换排序",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "快速排序",
+         "target": "交换排序",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "直接插入排序",
+         "target": "插入排序",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "希尔排序",
+         "target": "插入排序",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "折半插入排序",
+         "target": "插入排序",
+         "relation": "subclassof",
+         "value": 4.0
+      },
+      {
+         "source": "2-路插入排序",
+         "target": "插入排序",
+         "relation": "subclassof",
+         "value": 1.0
+      },
+      {
+         "source": "简单选择排序",
+         "target": "选择排序",
+         "relation": "subclassof",
+         "value": 3.0
+      },
+      {
+         "source": "堆排序",
+         "target": "选择排序",
+         "relation": "subclassof",
+         "value": 3.0
+      }, {
+         "source": "数据库知识",
+         "target": "数据库",
+         "relation": "subclassof",
+         "value": 1
+      }, {
+         "source": "关系数据库",
+         "target": "数据库",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "关系代数",
+         "target": "关系数据库",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "关系数据库概述",
+         "target": "关系数据库",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "关系数据库管理系统",
+         "target": "关系数据库",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "关系的完整性",
+         "target": "关系数据库",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "关系数据结构",
+         "target": "关系数据库",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "关系演算",
+         "target": "关系数据库",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "关系数据库标准语言SQL",
+         "target": "数据库",
+         "relation": "subclassof",
+         "value": 3
+      }, {
+         "source": "数据库基本表的操作",
+         "target": "关系数据库标准语言SQL",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "索引操作",
+         "target": "关系数据库标准语言SQL",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "查询操作",
+         "target": "关系数据库标准语言SQL",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "数据更新",
+         "target": "关系数据库标准语言SQL",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "视图操作",
+         "target": "关系数据库标准语言SQL",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "数据控制",
+         "target": "关系数据库标准语言SQL",
+         "relation": "subclassof",
+         "value": 3
+      }, {
+         "source": "授权定义",
+         "target": "数据控制",
+         "relation": "subclassof",
+         "value": 3
+      }, {
+         "source": "存权处理",
+         "target": "数据控制",
+         "relation": "subclassof",
+         "value": 3
+      }, {
+         "source": "查权操作",
+         "target": "数据控制",
+         "relation": "subclassof",
+         "value": 3
+      }, {
+         "source": "嵌入式SQL",
+         "target": "关系数据库标准语言SQL",
+         "relation": "subclassof",
+         "value": 3
+      }, {
+         "source": "关系数据库设计理论",
+         "target": "数据库",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "关系模式的规范化",
+         "target": "关系数据库设计理论",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "关系模式的分解",
+         "target": "关系模式的规范化",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "关系模式规范化的步骤",
+         "target": "关系模式的规范化",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "数据依赖",
+         "target": "关系数据库设计理论",
+         "relation": "subclassof",
+         "value": 1
+      }, {
+         "source": "关系模式中的数据依赖",
+         "target": "数据依赖",
+         "relation": "subclassof",
+         "value": 1
+      }, {
+         "source": "数据依赖对关系模式的影响",
+         "target": "数据依赖",
+         "relation": "subclassof",
+         "value": 1
+      }, {
+         "source": "范式",
+         "target": "关系数据库设计理论",
+         "relation": "subclassof",
+         "value": 3
+      }, {
+         "source": "数据库设计",
+         "target": "数据库",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "数据库实施",
+         "target": "数据库设计",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "数据库物理设计",
+         "target": "数据库设计",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "数据库运行与维护",
+         "target": "数据库设计",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "数据库设计的步骤",
+         "target": "数据库设计",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "概念结构设计",
+         "target": "数据库设计",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "逻辑结构设计",
+         "target": "数据库设计",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "需求分析",
+         "target": "数据库设计",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "数据抽象",
+         "target": "概念结构设计",
+         "relation": "subclassof",
+         "value": 2
+      }, {
+         "source": "概念结构设计的方法与步骤",
+         "target": "概念结构设计",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "视图的集成",
+         "target": "概念结构设计",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "E-R图向数据模型的转换",
+         "target": "逻辑结构设计",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "数据模型的优化",
+         "target": "逻辑结构设计",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "设计用户子模式",
+         "target": "逻辑结构设计",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "数据字典",
+         "target": "需求分析",
+         "relation": "subclassof",
+         "value": 4
+      }, {
+         "source": "需求分析的任务",
+         "target": "需求分析",
+         "relation": "subclassof",
+         "value": 1
+      }, {
+         "source": "需求分析的方法",
+         "target": "需求分析",
+         "relation": "subclassof",
+         "value": 1
+      }, {
+         "source": "专门的关系运算",
+         "target": "关系代数",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "选择",
+         "target": "专门的关系运算",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "投影",
+         "target": "专门的关系运算",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "连接",
+         "target": "专门的关系运算",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "除运算",
+         "target": "专门的关系运算",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "传统的集合运算",
+         "target": "关系代数",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "并",
+         "target": "传统的集合运算",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "差",
+         "target": "传统的集合运算",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "交",
+         "target": "传统的集合运算",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "笛卡尔积",
+         "target": "传统的集合运算",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "元组关系演算语言",
+         "target": "关系演算",
+         "relation": "type",
+         "value": 2
+      }, {
+         "source": "域关系演算语言",
+         "target": "关系演算",
+         "relation": "type",
+         "value": 2
+      }, {
+         "source": "定义基本表",
+         "target": "数据库基本表的操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "修改基本表",
+         "target": "数据库基本表的操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "删除基本表",
+         "target": "数据库基本表的操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "查询索引",
+         "target": "索引操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "创建索引",
+         "target": "索引操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "删除索引",
+         "target": "索引操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "单表查询",
+         "target": "查询操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "连接查询",
+         "target": "查询操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "嵌套查询",
+         "target": "查询操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "集合查询",
+         "target": "查询操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "插入数据",
+         "target": "数据更新",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "修改数据",
+         "target": "数据更新",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "删除数据",
+         "target": "数据更新",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "定义视图",
+         "target": "视图操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "查询视图",
+         "target": "视图操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "更新视图",
+         "target": "视图操作",
+         "relation": "type",
+         "value": 4
+      }, {
+         "source": "BC范式",
+         "target": "范式",
+         "relation": "type",
+         "value": 3
+      }, {
+         "source": "第一范式",
+         "target": "范式",
+         "relation": "type",
+         "value": 3
+      }, {
+         "source": "第三范式",
+         "target": "范式",
+         "relation": "type",
+         "value": 3
+      }, {
+         "source": "第二范式",
+         "target": "范式",
+         "relation": "type",
+         "value": 3
+      }
+   ],
+   "nodes": [{
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "指针"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "函数调用时的数据传递"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "字符数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "malloc函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "文件名"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "强制类型转换"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "计算机语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "内部函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "数组元素的指针"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "typedef声明类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "转换为大写的函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "高级语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "赋值表达式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "字符常量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "定义指针变量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "break语句"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "转换为小写的函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "二维数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "建立动态链表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "指针变量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "结构体"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "realloc函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "结构体变量的初始化和引用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "常量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "C语言特点"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "动态存储方式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "continue语句"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "算法的特征"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "返回指针值的函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "数组元素作函数实参"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "ferror函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "free函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "数据文件"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "条件表达式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "C语句分类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "字符串连接函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "程序文件"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "字符数据的输入输出"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "指针数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "浮点型数据"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "循环结构程序设计"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "整型常量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "字符串比较函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "逻辑运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "文件位置标记的定位"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "枚举类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "name"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "结构体指针"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "共用体类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "标识符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "全局变量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "打开与关闭文件"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "clearerr 函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "输出字符串的函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "机器语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "关系运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "文件读写的出错检测"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "字符型数据"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "变量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "算术表达式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "逻辑表达式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "数组名作函数参数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "calloc函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "整型数据"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "内存的动态分配"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "条件运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "字符数组的输入输出"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "链表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "计算机程序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "测字符串长度的函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "静态存储方式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "外部函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "局部变量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "字符串复制函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "汇编语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "5",
+         "size": "10",
+         "id": "算法的描述方法"
+      }, {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "泛型与集合"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "循环中嵌套循环"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "queue"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "位逻辑"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "多维数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "StringBuilder类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "字节型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "字符型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "按位取反"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "按位或"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "内部类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "类和对象"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "for循环"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "创建数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "super关键字"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "匿名内部类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "插入"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "求子串"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "异常处理"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "创建scanner对象"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "泛型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "调入scanner类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "访问修饰符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "短整型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "多态"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "Java面向对象"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "while循环"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "循环结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "读取键盘输入"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "方法覆盖"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "继承的实现"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "单浮点型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "变量的基本类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "整型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "数组的基本类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "反转"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "数据类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "Collection"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "final关键字"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "String类常用操作"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "枚举类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "拆分"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "命令行参数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "格式化输出"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "do while循环"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "大小比较"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "包与类的导入"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "默认方法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "算术运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "强制类型转换"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "位运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "抽象方法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "增强for循环"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "按位与"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "字符串"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "switch结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "Map"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "求长度"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "类声明"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "逻辑运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "注解类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "冒泡排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "变量三要素"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "类体"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "跳转语句"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "改字符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "List"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "数组的基本操作"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "插入排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "if结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "成员内部类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "选择结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "调用next方法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "对象初始化和销毁"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "一维数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "无限循环"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "String类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "转数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "选择排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "数据类型转换"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "方法重载"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "静态成员"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "常量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "关键字"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "布尔型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "使用类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "取字符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "成员"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "变量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "数组排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "查找"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "自动类型转换"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "赋值运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "继承"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "删除"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "按位异或"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "输入/输出"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "双浮点型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "使用数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "接口"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "元素迭代"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "相等比较"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "关系运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "长整型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "Stream_API"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "集合"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "抽象类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "创建对象"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "标识符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "移位"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "Set"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "静态方法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "组合"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "元素复制"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "静态内部类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "追加"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "求容量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "Java"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "Java语言基础"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "4",
+         "size": "10",
+         "id": "局部内部类"
+      }, {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "多态"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "模块"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "内建函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "对象"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "身份运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "选择结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "封装"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "逻辑运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "位运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "float"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "list"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "继承"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "面向对象"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "循环语句"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "sets"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "赋值运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "网络爬虫"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "name"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "装饰器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "complex"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "程序控制结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "循环结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "string"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "异步编程"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "输入输出"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "int"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "tuple"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "比较运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "dictionary"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "条件语句"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "bool"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "成员运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "抽象"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "语言基础"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "不可变类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "Lambda表达式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "数据类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "文件"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "if语句"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "闭包"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "容器类型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "顺序结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "随机函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "语句"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "算数运算符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "高级应用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "3",
+         "size": "10",
+         "id": "异常"
+      }, {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "正规式的运算"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "DFA的状态转移矩阵"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "句型和句子"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "栈式存储分配策略"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "符号串"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "语义分析与中间代码生成"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "单词的种类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "正规式与正规集"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "目标代码生成"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "Follow集"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "最左推导"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "正规式的等价"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "First集"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "三元式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "算符优先级"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "算符相邻"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "汇编"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "编译"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "符号串和语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "NFA的化简思路"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "LL(4)文法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "符号串集合之间的运算"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "0型文法(短语文法)"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "L-属性定义"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "LR分析器组成"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "静态存储分配策略"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "正闭包与闭包"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "直接推导"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "预测分析的出错处理"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "规范句型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "句柄"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "抽象语法树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "乘积"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "语言的分类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "语法分析器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "DFA和NFA的关系"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "LR(k)技术的分类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "SLR(1)分析技术"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "词法分析器的任务"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "数据复用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "回溯的判断"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "S-属性定义"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "直接短语"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "优先函数的缺点"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "文法的二义性"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "符号常量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "四元式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "并集"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "出错情况"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "优先函数"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "不确定有限自动机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "NFA的状态转换图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "3型语言(正规文法)"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "解决思路"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "δ的递归扩展定义"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "三地址代码"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "语义分析"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "回溯的消除"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "语法分析树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "DFA的状态转换图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "LL(2)文法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "词法分析"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "name"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "最右推导(规范推导)"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "文法递归"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "LL(1)文法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "同步符号集的选择"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "代码优化"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "最左归约(规范归约)"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "LL(3)文法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "算符优先关系"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "逆波兰式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "二义性的消除"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "中间代码生成"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "DFA识别字符串"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "图表示"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "翻译程序的三种方式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "文法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "递归下降分析器。"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "算符文法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "自顶向下的语法分析"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "语法分析"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "语法分析方法的种类"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "机器语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "编译程序的五个阶段"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "2型文法(上下文无关文法)"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "短语"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "幂运算"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "确定的有限自动机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "文法的化简"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "NFA识别字符串"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "自底向上的语法分析"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "继承属性"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "运行时环境的组成"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "属性文法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "NFA的确定化"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "LALR(1)分析技术"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "解释"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "正规文法转换为正规式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "堆式存储分配策略"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "1型文法(上下文敏感文法)"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "高级编程语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "产生式规则"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "LR分析技术"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "推导"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "递归规则"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "字母表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "栈中的继承属性"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "综合属性"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "优先函数的优点"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "汇编语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "7",
+         "size": "10",
+         "id": "算符优先文法"
+      }, {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "广域网"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "客户端"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "实时迁移"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "高速缓存行"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "中断向量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "解释器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "多线程"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "活锁"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "分时系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "超级用户"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "复用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "根目录"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "ROM"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "BSD"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "FreeBSD"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "内存映射I/O"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "不可抢占资源"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "云计算"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "RAM"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "工作目录"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "超标量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "操作系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "显卡"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "用户模式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "逻辑块寻址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "计算机架构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "Linux"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "多重缓冲区"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "分布式系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "虚拟地址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "输入输出内存管理单元"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "轮询"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "MMU"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "稳定存储"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "context switch"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "L1 cache"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "异步响应"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "内核模式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "主机操作系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "硬实时系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "网络操作系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "挂载"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "Service Pack(SP)"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "SATA"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "突发模式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "POSIX"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "SSD"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "电容式触摸屏"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "设备独立性"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "死锁"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "假脱机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "端口映射I/O"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "缓存命中"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "中断向量表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "同步阻塞"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "忙等"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "X Window System"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "中断"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "主从架构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "沙盒"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "总线(Bus)"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "UNIX System V"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "相容分时系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "路径"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "GDI"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "L3 cache"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "MINIX"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "MS-DOS"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "虚拟机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "大型机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "DOS"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "UNIX 操作系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "L2 cache"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "云"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "目录"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "软件即服务"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "以太网"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "进程"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "SSF"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "数字版权管理（DRM）"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "服务端"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "shell"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "x86"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "系统检查点"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "name"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "进程表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "分布式网络系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "虚拟化技术"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "Windows NT"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "批处理"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "堆栈寄存器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "驱动程序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "缓冲区"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "DMA"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": ". I/O port"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "平台即服务"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "流水线"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "多处理系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "客户操作系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "地址空间"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "周期窃取"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "进程间通信"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "Java 虚拟机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "EEPROM"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "程序计数器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "DMI"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "可抢占资源"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "BIOS"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "主从模型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "设备控制器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "OS/360"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "局域网"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "目标文件"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "桥接器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "程序状态字"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "全虚拟化"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "VMM"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "闪存"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "基础设施即服务"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "PCIe"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "CPU 核心"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "命令行界面"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "系统调用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "RAID"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "MacOS X"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "半虚拟化"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "时钟"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "主机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "电阻式触摸屏"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "环形缓冲区"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "图形处理器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "错误处理"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "软实时系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "USB"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "文件描述符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "QR Code"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "主设备编号"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "位图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "inode"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "存储体系结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "Gnome"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "2",
+         "size": "10",
+         "id": "GUI"
+      }, {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "万维网"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "广域网"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "应用层"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "半双工"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "TCP协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "文件传输协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "虚电路服务"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "分组交换"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "网际协议IP"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "报文交换"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "随机访问"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "时分复用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "速率"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "电子邮件"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "带宽"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "外部网关协议EGP"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "组帧"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "内部网关协议IGP"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "网络安全"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "波分复用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "交换机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "IPV4地址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "子网掩码"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "个人区域网"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "C/S模型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "CSMA/CD协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "流量控制"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "自治系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "可靠传输机制"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "通信基础"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "可靠传输"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "地址解析协议ARP"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "两种服务"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "互联网的组成"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "P2P模型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "UDP协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "UDP校验"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "信道划分"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "异构网络互联"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "动态主机配置协议DHCP"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "电路交换"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "集线器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "城域网"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "传输介质"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "数据报服务"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "IPV6"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "RIP协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "域名系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "介质访问"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "虚电路"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "网络层"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "边缘部分"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "数据链路层"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "name"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "信道利用率"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "IPV4地址与NAT"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "吞吐量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "路由协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "超文本传输协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "子网划分"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "码分复用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "传输方式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "核心部分"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "统一资源定位符"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "设备"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "TCP功能"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "往返时间RTT"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "TCP报文段"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "SMTP"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "超文本标记语言"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "计算机网络类别"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "定理"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "无分类编址CIDR"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "差错控制"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "局域网"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "功能"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "拥塞控制"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "IPV4"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "物理层"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "数据报"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "BGP协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "调制与解码"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "网络地址转换"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "具体应用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "网桥"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "信道"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "OSPF协议"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "全双工"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "POP3"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "网络应用模型"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "路由与转发"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "计算机网络性能指标"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "频分复用"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "TCP连接管理"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "体系结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "基本概念"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "轮询访问"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "6",
+         "size": "10",
+         "id": "传输层"
+      }, {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "响应时间"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "定点数的表示"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "通道"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "顺序寻址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "中断处理"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "指令寻址方式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "外存储器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "内部接口"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "数制与编码"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "磁盘存储器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "直接寻址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "计算机性能指标"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "主频"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "高速缓冲存储器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "输入输出系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "鼠标"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "键盘"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "指令控制"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "隐含寻址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "半导体随即存储器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "时间控制"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "数据加工"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "CPU功能"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "数据表示"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "打印机"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "硬件系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "输入设备"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "存储器的层次结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "name"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "浮点数的表示"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "寄存器寻址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "存储系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "虚拟存储器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "外部设备"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "总线"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "总线仲裁"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "分布仲裁方式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "链式查询"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "指令执行过程"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "控制器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "运算器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "计算机系统层次结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "跳跃寻址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "立即寻址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "I/O方式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "吞吐量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "间接寻址"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "基本构成"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "操作控制"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "总线标准"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "计算机系统概述"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "显示器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "总线操作和定时"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "独立请求"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "CPU时钟周期"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "执行"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "取指"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "指令系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "I/O接口"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "输出设备"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "DMA"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "多模块存储器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "软件系统"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "程序查询"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "程序中断"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "集中仲裁方式"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "中央处理器"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "CISC和RISC"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "计数器定时查询"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "分析"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "0",
+         "size": "10",
+         "id": "外部接口"
+      }, {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "强连通分量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "深度优先搜索"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "折半查找"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "线性结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "连通图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "赫夫曼树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "查找算法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "堆排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "基数排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "排序算法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "单链表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "直接插入排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "先根遍历树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "先序线索二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "一般树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "完全图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "循环队列"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "队列"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "森林"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "外部排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "线索二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "线性表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "静态链表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "顺序查找"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "强连通图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "归并排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "生成树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "存储结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "折半插入排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "先序遍历二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "后根遍历树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "键树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "后序线索二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "有向图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "完全二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "双向链表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "B+树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "二叉树的遍历"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "循环链表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "B+树查找"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "广度优先搜索"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "树形结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "无向图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "连通分量"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "交换排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "平衡二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "简单选择排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "中序线索二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "二叉排序树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "满二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "冒泡排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "基本算法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "插入排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "基本操作"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "B-树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "树的遍历"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "一般二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "图的遍历"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "选择排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "有向完全图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "数组"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "希尔排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "静态查找法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "顺序栈"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "快速排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "栈"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "二叉排序树查找"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "中序遍历二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "内部排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "数据结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "中根遍历树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "广义表"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "集合"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "索引排序查找"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "最优二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "链队列"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "链栈"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "动态查找法"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "B-树查找"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "后序遍历二叉树"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "无向完全图"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "图状结构"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "哈希表查找"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "2-路插入排序"
+      },
+      {
+         "class": "精品特色菜",
+         "group": "8",
+         "size": "10",
+         "id": "分块查找"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "BC范式"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "笛卡尔积"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "投影"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系演算"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "除运算"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "嵌入式SQL"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "需求分析"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "元组关系演算语言"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "查询视图"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据字典"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "差"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "查询操作"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据控制"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "连接查询"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "删除数据"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "并"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据库设计"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "连接"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "概念结构设计"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系代数"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系的完整性"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "逻辑结构设计"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系数据结构"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系数据库设计理论"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "专门的关系运算"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "域关系演算语言"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据库设计的步骤"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系数据库管理系统"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "更新视图"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "需求分析的方法"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "查询索引"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "第三范式"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据更新"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "修改基本表"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "交"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据库物理设计"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "概念结构设计的方法与步骤"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据抽象"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "插入数据"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "第一范式"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "删除基本表"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "选择"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "嵌套查询"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系模式中的数据依赖"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据模型的优化"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "授权定义"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "单表查询"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "范式"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "删除索引"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "索引操作"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "定义基本表"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "E-R图向数据模型的转换"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据库知识"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据依赖"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系数据库标准语言SQL"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "第二范式"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "需求分析的任务"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "视图的集成"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据依赖对关系模式的影响"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据库实施"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据库运行与维护"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系模式规范化的步骤"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "集合查询"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系数据库概述"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "创建索引"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系数据库"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "存权处理"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "定义视图"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "传统的集合运算"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据库"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "视图操作"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "查权操作"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系模式的规范化"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "数据库基本表的操作"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "修改数据"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "关系模式的分解"
+      }, {
+         "class": "精品特色菜",
+         "group": "1",
+         "size": "10",
+         "id": "设计用户子模式"
+      }
+   ]
+}
